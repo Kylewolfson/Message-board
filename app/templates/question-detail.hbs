@@ -5,9 +5,10 @@
 <br>
 Additional notes: <i>{{model.notes}}</i>
 <hr>
-{{new-answer model=question newAnswer="newAnswer"}}
+{{new-answer question=model newAnswer="newAnswer"}}
 
-{{#each model.answer as |answer|}}
+
+{{#each model.answers as |answer|}}
   {{answer.author}} says: {{answer.text}}
   <hr>
 {{/each}}

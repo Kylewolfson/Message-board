@@ -1,1 +1,18 @@
-{{yield}}
+<h1>New Question?</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="author">Author:</label>
+        {{input value=author id="author"}}
+      </div>
+      <div class="form-group">
+        <label for="text">Question:</label>
+        {{input value=text id="text"}}
+      </div>
+      <div class="form-group">
+        <label for="notes">Additional notes:</label>
+        {{input value=notes id="notes"}}
+      </div>
+      <button {{action 'newQuestion'}}>Ask</button>
+    </form>
+  </div>

@@ -1,1 +1,16 @@
-{{yield}}
+<h1>New Answer!</h1>
+   <div>
+     <form>
+       <div class="form-group">
+         <label for="author">Author</label>
+         {{input value=author id="author"}}
+       </div>
+
+       <div class="form-group">
+         <label for="text">Answer: </label>
+         {{input value=text id="text"}}
+       </div>
+
+       <button {{action 'newAnswer'}}>Save</button>
+     </form>
+   </div>
