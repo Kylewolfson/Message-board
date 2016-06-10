@@ -1,0 +1,13 @@
+<br>
+<br>
+{{model.author}} asks: <strong>{{model.text}}</strong>
+<br>
+<br>
+Additional notes: <i>{{model.notes}}</i>
+<hr>
+{{new-answer model=question newAnswer="newAnswer"}}
+
+{{#each model.answer as |answer|}}
+  {{answer.author}} says: {{answer.text}}
+  <hr>
+{{/each}}
