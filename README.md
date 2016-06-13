@@ -1,7 +1,13 @@
 # Message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _Sets up a message board application to track questions and answers, 6/13/2016_
+
+#### By _Kyle Wolfson_
+
+## Description
+
+_Allows users to upload questions to the site and users can then click on questions from the homepage to view and add answers to the detailed view page, 6/13/2016_
+
 
 ## Prerequisites
 
@@ -19,6 +25,7 @@ You will need the following things properly installed on your computer.
 * change into the new directory
 * `npm install`
 * `bower install`
+* _run ember s in the project directory and go to localhost:4200 in a web browser_
 
 ## Running / Development
 
@@ -51,3 +58,20 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+  ## Known Bugs
+
+  _No bugs at this time_
+
+  ## Support and contact details
+
+  _wolfsonk@gmail.com_
+
+  ## Technologies Used
+
+  _Javascript, ember, bower and npm_
+
+  ### License
+
+  *MIT license*
+
+  Copyright (c) 2016 **_Kyle Wolfson_**
