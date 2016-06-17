@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  trackQuestion: Ember.inject.service(),
+  
   model(params) {
     return this.store.findRecord('question', params.question_id);
   },
@@ -13,6 +15,9 @@ export default Ember.Route.extend({
         return question.save();
       });
       this.transitionTo('question-detail', params.question);
+    },
+    addTrackedQuestion(question) {
+      this.get('trackQuestion').add(question);
     }
   }
 });

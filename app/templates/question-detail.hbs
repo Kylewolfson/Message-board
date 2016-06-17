@@ -5,6 +5,11 @@
 <br>
 Additional notes: <i>{{model.notes}}</i>
 
+<br>
+<br>
+<button {{action 'addTrackedQuestion' model}}>Track question</button>
+<hr>
+
 {{edit-question question=model}}
 <hr>
 {{new-answer question=model newAnswer="newAnswer"}}
